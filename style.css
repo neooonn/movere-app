@@ -94,4 +94,7 @@ html, body {
         font-size: 2rem;
         margin-bottom: 20px;
     }
+    #socialmedia-el {
+        font-size: 10px;
+    }
 }
