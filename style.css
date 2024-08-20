@@ -56,13 +56,13 @@ html, body {
     font-family: "Edu VIC WA NT Beginner";
     border: 1px solid white;
     background-color: transparent;
-    color: white;
+    color: rgb(247, 245, 245);
     cursor: pointer;
     font-size: 3rem;
 }
 #message-el {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 49px;
 }
 #socialmedia-el {
     font-size: 1rem;
