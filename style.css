@@ -50,15 +50,29 @@ html, body {
     font-size: 5rem;
     position: relative;
 }
+.buttons {
+    display: flex;
+    gap: 20px;
+}
 #button-el {
-    width: 30rem;
-    height: 10rem;
+    width: 20rem;
+    height: 5rem;
     font-family: "Edu VIC WA NT Beginner";
     border: 1px solid white;
     background-color: transparent;
     color: rgb(247, 245, 245);
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+#button2-el {
+    width: 20rem;
+    height: 5rem;
+    font-family: "Edu VIC WA NT Beginner";
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgb(247, 245, 245);
+    cursor: pointer;
+    font-size: 2rem;
 }
 #message-el {
     text-align: center;
@@ -87,7 +101,26 @@ html, body {
     }
     #button-el {
         width: 7rem;
-        height: 2rem;
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+    #message-el {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    #socialmedia-el {
+        font-size: 10px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        height: 80%;
+        width: 90%;
+        font-size: 3rem;
+    }
+    #button-el {
+        width: 7rem;
+        height: 3rem;
         font-size: 0.9rem;
     }
     #message-el {
